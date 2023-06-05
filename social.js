@@ -1,7 +1,7 @@
 "use strict"
 
 const toggle = document.getElementById(`cb2`)
-let isDarkMode = false
+
 
 toggle.onclick = () => {
     if (document.body.classList.contains(`dark_theme`)) {
